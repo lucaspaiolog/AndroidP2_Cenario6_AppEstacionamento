@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta Principal (Verde e Cinza) -->
+    <color name="green_primary">#A5D6A7</color> <!-- Verde claro principal -->
+    <color name="green_primary_dark">#81C784</color> <!-- Tom mais escuro para status bar -->
+    <color name="green_accent">#66BB6A</color> <!-- Verde mais vibrante para ações (links, FAB) -->
+
+    <color name="background_gray">#F5F5F5</color> <!-- Cinza bem claro para o fundo do app -->
+    <color name="card_background_white">#FFFFFF</color> <!-- Cards brancos para contraste -->
+
+    <!-- Cores de Texto (Modo Claro) -->
+    <color name="text_primary_dark">#212121</color> <!-- Cinza escuro para títulos -->
+    <color name="text_secondary_gray">#757575</color> <!-- Cinza médio para subtítulos -->
+
+    <!-- Cores de Status (MODO CLARO) -->
+    <color name="status_occupied_red">#EF9A9A</color> <!-- Usada no AdminAdapter e em Temas -->
+    <color name="status_free_green">#E8F5E9</color> <!-- Usada no AdminAdapter -->
+
+    <!-- Cores que faltavam (MODO CLARO) - Usadas pelo ParkingSpaceAdapter -->
+    <color name="status_occupied_red_bg">#EF9A9A</color> <!-- Fundo vermelho claro -->
+    <color name="status_occupied_red_text">#791A1A</color> <!-- Texto vermelho escuro -->
+    <color name="status_free_green_bg">#E8F5E9</color> <!-- Fundo verde claro -->
+    <color name="status_free_green_text">#1B5E20</color> <!-- Texto verde escuro -->
+
+    <!-- Padrões -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!--
+    ===================================================
+    CORES DO MODO ESCURO
+    ===================================================
+    -->
+    <color name="dark_background">#121212</color> <!-- Fundo do app (preto/cinza muito escuro) -->
+    <color name="dark_surface">#1E1E1E</color> <!-- Fundo dos cards (cinza escuro) -->
+
+    <!-- Cores de Texto (Modo Escuro) -->
+    <color name="text_primary_light">#F5F5F5</color> <!-- Texto principal claro -->
+    <color name="text_secondary_light">#BDBDBD</color> <!-- Texto secundário claro -->
+
+    <!-- Cores de Status (MODO ESCURO) -->
+    <color name="status_occupied_red_dark_bg">#442222</color> <!-- Fundo vermelho escuro -->
+    <color name="status_occupied_red_dark_text">#FFCDD2</color> <!-- Texto vermelho claro -->
+    <color name="status_free_green_dark_bg">#1E3E20</color> <!-- Fundo verde escuro -->
+    <color name="status_free_green_dark_text">#C8E6C9</color> <!-- Texto verde claro -->
+
+</resources>

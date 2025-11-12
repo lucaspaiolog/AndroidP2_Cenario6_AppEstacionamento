@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema Base para o App (Dashboards) -->
+    <style name="Theme.AppEstacionamento" parent="Theme.Material3.DayNight">
+        <!-- Cores Primárias (Verde) -->
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryVariant">@color/green_primary_dark</item>
+        <item name="colorOnPrimary">@color/text_primary_dark</item> <!-- Texto escuro em botões verdes -->
+
+        <!-- Cores Secundárias (Acento) -->
+        <item name="colorSecondary">@color/green_accent</item>
+        <item name="colorSecondaryVariant">@color/green_accent</item>
+        <item name="colorOnSecondary">@color/white</item> <!-- Texto branco no FAB -->
+
+        <!-- Cor de fundo do App -->
+        <item name="android:windowBackground">@color/background_gray</item>
+        <item name="colorSurface">@color/card_background_white</item> <!-- Cor dos Cards -->
+
+        <!-- Cores de Status/Erro -->
+        <item name="colorError">@color/status_occupied_red</item>
+        <item name="colorOnError">@color/text_primary_dark</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <!-- Tema para Splash, Login, Register (Sem ActionBar) -->
+    <style name="Theme.AppEstacionamento.NoActionBar" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Cores Primárias (Verde) -->
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryVariant">@color/green_primary_dark</item>
+        <item name="colorOnPrimary">@color/text_primary_dark</item>
+
+        <!-- Cores Secundárias (Acento) -->
+        <item name="colorSecondary">@color/green_accent</item>
+        <item name="colorSecondaryVariant">@color/green_accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Cor de fundo do App -->
+        <item name="android:windowBackground">@color/background_gray</item>
+        <item name="colorSurface">@color/card_background_white</item>
+
+        <!-- Cores de Status/Erro -->
+        <item name="colorError">@color/status_occupied_red</item>
+        <item name="colorOnError">@color/text_primary_dark</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
