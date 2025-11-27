@@ -35,36 +35,37 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    // Habilita o ViewBinding
     buildFeatures {
         viewBinding = true
     }
 }
 
 dependencies {
-// Core
+    // Core & UI
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.constraintlayout)
-    implementation(libs.androidx.activity) // <-- FIX: Removed .ktx
+    implementation(libs.androidx.activity)
     implementation(libs.androidx.fragment.ktx)
+    implementation(libs.androidx.recyclerview)
 
-    // ViewModel e LiveData
+    // ViewModel
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
-    implementation(libs.androidx.lifecycle.livedata.ktx) // <-- FIX: Now works because you added it to the TOML file
 
-    // Coroutines (incluindo a do 'await')
+    // Coroutines & Await
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.kotlinx.coroutines.play.services)
 
-    // Firebase (BOM)
+    // Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.auth)
     implementation(libs.firebase.firestore)
-    implementation(libs.firebase.database) // <-- FIX: Now works because you added it to the TOML file
-    // The incorrect 'google.firebase' lines have been removed.
+    implementation(libs.firebase.messaging)
+    implementation(libs.google.firebase.auth)
+    implementation(libs.google.firebase.firestore)
+    implementation(libs.firebase.database)
 
     // Testes
     testImplementation(libs.junit)
